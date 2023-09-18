@@ -1,0 +1,46 @@
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    margin: 20px 0;
+    
+}
+form input{
+    background: none;
+    border: 1px solid #999;
+    border-radius: 5px;
+    padding: 8px 15px ;
+    margin: 5px 0 20px 0;
+    width: 85%;
+}
+form textarea{
+    background: none;
+    border: 1px solid #999;
+    border-radius: 5px;
+    padding: 8px 15px ;
+    margin: 20px 0;
+    width: 85%;
+    height: 300px;
+}
+form select {
+    width: 100px;
+    height: 30px;
+    padding: 5px 10px;
+    background: #151515;
+    color: #f2f2f2;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+form button{
+    border-radius: 5px;
+    padding: 8px 15px;
+    border: none;
+    background: #151515;
+    color: #fff;
+    width: 85%;
+    margin-bottom: 20px;
+}

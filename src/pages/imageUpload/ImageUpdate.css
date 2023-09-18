@@ -1,0 +1,44 @@
+.country__updates{
+    flex: 4;
+    color: #fff;
+    /* background: #f2f2f2; */
+}
+.imageProperties{
+    width: 60%;
+}
+.imgVisual{
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+}
+.imgVisual h1{
+    margin-bottom: 20px;
+}
+.btnArea{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btnPrimary, .btnSecondary{
+    width: 160px;
+    transition: all .2s;
+}
+.btnPrimary{
+    background-color: green;
+    border: 1px solid green;
+    margin: 3px;
+}
+.btnSecondary{
+    background-color: red;
+    margin: 3px;
+}
+.btnPrimary:hover{
+    background: none;
+    border: 1px solid green;
+    color: green;
+}
+.btnSecondary:hover{
+    background: none;
+    border: 1px solid red;
+    color: red;
+}
